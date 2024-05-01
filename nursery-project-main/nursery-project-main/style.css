@@ -1,0 +1,175 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    padding: 0%;
+    margin: 0%;
+    /* width: 100%; */
+}
+.main{
+    position: sticky;
+    top: 0;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      background-color: rgb(49, 48, 48);
+      height: 60px;
+      width: 100%;
+}
+.main1 video{
+    width: 100%;
+}
+.main input{
+    margin-left: 100px;
+    background-color: rgb(135, 220, 135);
+    width: 30%;
+    height: 25px;
+}
+.main button{
+    margin-left: 30px;
+    border: 2px dotted rgb(29, 6, 57);
+    width: 4%;
+}
+select {
+    margin-left: 200px;
+    border: 2px dotted rgb(29, 6, 57);
+    height: 28px;
+}
+.part1{
+   text-align: center;
+   color: green;
+}
+.part2{
+    /* border: 2px solid red; */
+    width: 22%;
+    margin-left: 20px;
+    background-color:rgb(198, 198, 242);
+    text-align: center;
+    box-shadow: 10px 10px gray;
+    height: 448px;
+    float: left;
+}
+.part2 img{
+    height: 280px;
+    width: 100%;
+}
+.nursery{
+    /* border: 2px solid red; */
+    height: 480px;
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.part2 :hover{
+    transform: scale(0.92);
+}
+.part2 button{
+    background-color: rgb(189, 90, 136);
+}
+.part1 h1{
+    padding-top: 20px;
+    margin-left: 80px;
+    /* border: 2px solid red; */
+}
+hr{
+    width: 70%;
+    margin-left: 200px;
+}
+.mini h1{
+   text-align: center;
+   margin-bottom: 20px;
+}
+.mini1{
+    float: left;
+    /* border: 2px solid red; */
+    margin-left: 15px;
+}
+.mini2{
+    padding-top: 20px;
+    height: 350px;
+    /* border: 2px solid red; */
+}
+.mini1 p{
+    /* border: 2px solid red; */
+    background-color: greenyellow;
+    padding-left: 100px;
+    color: rgb(3, 161, 229);
+}
+.mini1 p:hover{
+    transform: scale(0.93);
+}
+.mini2 img:hover{
+    transform: scale(0.93);
+}
+.mini2 img{
+  border-radius:100px ; 
+}
+.anu h1{
+    text-align: center;
+}
+.anu2{
+    float: left;
+    width:16%;
+    margin-left: 50px;
+    border: 2px solid red;
+    background-color:rgb(138, 195, 195);
+}
+.anu2 img{
+    width: 100%;
+}
+.anu2{
+   border-end-end-radius: 20px;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+   border-bottom-left-radius: 20px;
+}
+.anu2 img{
+  border-radius: 20px;
+}
+.anu2{
+    text-align: center;
+}
+.anumain{
+    /* border: 2px solid red; */
+    height: 500px;
+    width: 100%;
+    padding-top: 60px;
+}
+.anu2 button{
+    background-color: chocolate;
+}
+.anu2:hover{
+    background-color: rgb(199, 70, 96);
+    transform: scale(1.06);
+}
+.anu2 button{
+   color: white;
+}
+.last{
+    background-color: black;
+    color:white;
+    /* border: 2px solid red; */
+    height: 400px;
+    width: 100%;
+    padding-top: 30px;
+   
+}
+.last1{
+    margin-left: 90px;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+}
+.last1 input{
+    width: 80%;
+}
+.last1 button{
+    width: 20%;
+}
+.final{
+    height: 20px;
+    /* border: 2px solid red; */
+    background-color: black;
+    color: white;
+    margin-top: 2px;
+    text-align: center;
+}
